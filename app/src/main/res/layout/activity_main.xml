@@ -23,7 +23,7 @@
             app:hintTextAppearance="@android:style/TextAppearance.Medium">>
 
             <!-- EditText para el nombre -->
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:id="@+id/etNombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
             app:hintTextAppearance="@android:style/TextAppearance.Medium">
 
             <!-- EditText para el teléfono -->
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:id="@+id/etTelefono"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
             app:hintTextAppearance="@android:style/TextAppearance.Medium">
 
             <!-- EditText para el Email -->
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:id="@+id/etEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
             app:hintTextAppearance="@android:style/TextAppearance.Medium">
 
             <!-- EditText para la descripción -->
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:id="@+id/etDescripcion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
